@@ -1,16 +1,23 @@
 ## TODOS :
 
 1. Add another Gdrive Download link , not flow cv
-2. There is no need for the birthday, see what other data is used ?
-3.
-
-# aymansalah
 
 ---
 
--   How to add new Item to Portfolio Page :
-    1- Check if there is a <li> item with class "fillter-btn" or create it (this is for filteration / Category)
-    2- create new preview div item with class "isotop-item" and corresponding "fillter-btn", change the href for the new modal for it, there are 2 IDs that you should edit
-    3-Copy a modal from bottom and change its ID to the new Id ( to correspond with "isotop-item") , only modal ID , nothing to edit inside it , edit is data and meta data and links ...etc
+### How to Add a New Item to the Portfolio Page
+
+1. **Check if there is a category `<li>` item with class `fillter-btn` or create it**
+   This is for filtering / category. If a filter button for your category doesn’t exist, add a new `<li class="fillter-btn">` for it.
+
+2. **Create a new preview `<div>` item with class `isotop-item`**
+
+    - Assign it the corresponding `fillter-btn` category class.
+    - Update the `href` of its link to point to the new modal.
+    - Ensure the two IDs (in the preview item and the modal link) are consistent and unique.
+
+3. **Copy a modal from the bottom and change its ID**
+    - Duplicate an existing modal block.
+    - Change **only** the modal’s `id` to match the `href` from Step 2.
+    - Do **not** edit anything inside the modal—only update its content, metadata, links, etc., as needed.
 
 ---
